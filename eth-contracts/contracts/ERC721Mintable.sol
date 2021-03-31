@@ -14,7 +14,7 @@ contract Ownable {
     //  4) fill out the transferOwnership function
     //  5) create an event that emits anytime ownerShip is transfered (including in the constructor)
     
-    event OnwershipTransferred(address indexed previousOwner, address indexed newOwner);
+    event OwnershipTransferred(address indexed previousOwner, address indexed newOwner);
     address private _owner;
     
     constructor() internal{
